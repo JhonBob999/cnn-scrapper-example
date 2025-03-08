@@ -165,19 +165,6 @@ This script **scrapes articles from Medium** using **Selenium** while bypassing 
 ⚠ **IMPORTANT:** Place only cookies that belong to the target website you are parsing.
 
 
-
-📊 Example Output (medium_articles.json)
-    [
-    {
-        "title": "AI Is Making SaaS and Business Intelligence Obsolete",
-        "url": "https://medium.com/entrepreneur-s-handbook/ai-is-making-saas-and-business-intelligence-obsolete-db38b6617484"
-    },
-    {
-        "title": "Google just confirmed the AI reality many programmers are desperately trying to deny",
-        "url": "https://medium.com/coding-beauty/ai-writes-google-codebase-00e6ad35ac7c"
-    }
-    ]
-
 ⚠️ Disclaimer
     This scraper is for educational purposes only. 
     Scraping websites without permission may violate terms of service. 
