@@ -156,8 +156,14 @@ This script **scrapes articles from Medium** using **Selenium** while bypassing 
     ```bash
     python cnn_scraper/spiders/medium.py
 
-💡 Make sure cookies.json is available. If Cloudflare blocks the scraper, update cookies manually using F12 - Application - Storage - Cookies - medium.com(website)
-    Copy all cookies which are only for medium.com. !IMPORTANT! !PLACE COOKIES WHICH ARE ONLY THAT WEBSITE WHAT YOU ARE TRYING TO PARSE! 
+💡 Make sure cookies.json is available. If Cloudflare blocks the scraper, update cookies manually!
+### 🔄 Updating Cookies
+1. Open **F12 → Application → Storage → Cookies**.
+2. Copy cookies for **medium.com** only.
+3. Save them in `cookies.json`.
+
+⚠ **IMPORTANT:** Place only cookies that belong to the target website you are parsing.
+
 
 
 📊 Example Output (medium_articles.json)
