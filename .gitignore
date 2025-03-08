@@ -169,3 +169,11 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#Sensetive data(maybe , maybe not)
+cnn_scraper/spiders/chromedriver.exe
+cnn_scraper/spiders/cookies.json
+cnn_scraper/spiders/selenium_profile/
+cnn_scraper/__pycache__/
+cnn_scraper/spiders/__pycache__/
+
